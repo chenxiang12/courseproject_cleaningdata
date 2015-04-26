@@ -4,6 +4,17 @@ The variables in the dataset are the following:
 subject_ID: Identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 activity: Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist,
 this variable can be one of the six activities.
-All other variables have a self-explained name. "Acc" represents linear acceleration and "Gyro" represents angular velocity.
-"X","Y" and "Z" indicate 3-axial directions. "mean" and "std" represent mean value and standard deviation value.
-tBodyAcc-mean()-X: 
+All other variables have a self-explained name. In the name of this variables, "Acc" represents linear acceleration and "Gyro" represents angular velocity.
+"X","Y" and "Z" indicate 3-axial directions. "mean" and "std" represent mean value and standard deviation value respectively.
+THe symbol "t" and "f" indicate time and frequency domain respectively. Here are some of the variables:
+tBodyAcc-mean()-X
+tBodyAcc-mean()-Y
+tBodyAcc-mean()-Z
+tBodyAcc-std()-X
+tBodyAcc-std()-Y
+tBodyAcc-std()-Zh
+tGravityAcc-mean()-X
+tGravityAcc-mean()
+......
+The most important thing you should keep in mind is that each value is a average of all observations for a specific subject_ID and activity. 
+For more information, please refer to [courese project](https://class.coursera.org/getdata-013/human_grading/view/courses/973500/assessments/3/submissions)
